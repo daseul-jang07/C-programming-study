@@ -1,0 +1,16 @@
+#include <stdio.h>
+// do .. while 문을 이용한 메뉴
+
+int main(void)
+{
+    int i = 0;
+    do
+    {
+        printf("1---새로 만들기\n");
+        printf("2---파일열기\n");
+        printf("3---파일닫기\n");
+        printf("하나를 선택하세요.\n");
+        scanf("%d", &i);
+    } while
+    
+}
