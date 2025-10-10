@@ -11,6 +11,9 @@ int main(void)
         printf("3---파일닫기\n");
         printf("하나를 선택하세요.\n");
         scanf("%d", &i);
-    } while
-    
+    } while(i < 1 || i > 3);
+
+    printf("선택된 메뉴 = %d\n", i);
+
+    return 0;
 }
